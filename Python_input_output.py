@@ -46,10 +46,16 @@ print('value of numeric_str = ', numeric_str)
 # print('User name = ',name)
 # print('user age= ',age)
 
-# Python file
-
 # Another way to take user input with custom message
+# name = input('Enter value for name = ')
+# age = input('Enter value for age = ')
+# print('User name = ',name)
+# print('user age = ',age)
+
 name = input('Enter value for name = ')
 age = int(input('Enter value for age = '))
 print('User name = ',name)
 print('user age = ',age)
+
+print('type of name = ', type(name))
+print('type of age = ', type(age))
